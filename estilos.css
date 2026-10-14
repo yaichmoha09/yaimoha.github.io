@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #ededf1;
+    color:#0a0808;
+    font-family: 'Anybody', cursive;
+}
+
+header {
+    /* min-height: 300px; */
+    background-color: rgba(11, 45, 241, 0.801);
+    text-align: center;
+    padding:60px;
+    
+}
+header h1{
+    font-size: 2.5em;
+}
+nav {
+    /* height: 50px; */
+    background-color: #050505;
+    color:#f5f5f5;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color:#ece3e3;
+    padding:15px 20px;
+    display:inline-block;
+    /* background-color: red; */
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+main article{
+    /* background-color: red; */
+    padding:20px 0;
+    overflow: hidden;
+    
+}
+main article h2{
+    width:40%;
+    min-width: 400px;
+    background-color: rgb(17, 16, 16);
+    padding:20px;
+    color: #ffffff;
+}
+main article .contenido{
+    padding:30px;
+    /* background-color: aqua; */
+}
+main article img{
+    
+    width: 40%;
+    min-width: 100px;
+    max-width: 200px;
+    margin-right: 20px;;
+    float:left;
+}
+main article p{
+    margin-top:20px;
+    /* margin-left:20px; */
+    line-height: 25px;
+}
+main .info{
+    background-color:rgb(100, 101, 145);
+    text-align: center;
+    font-weight: bolder;
+    
+}
+main .info p{
+    padding:40px 20% 0;
+    line-height: 20px;;
+}
+
+main .info img{
+    width: 20%;
+    max-width: 200px;
+    /* border:5px solid #fff; */
+    margin-bottom: -20px;
+}
+footer{
+    /* height: 50px; */
+    background-color: #fffcfc;
+    color:#ffffff;
+    text-align: center;
+    padding:15px;
+}
